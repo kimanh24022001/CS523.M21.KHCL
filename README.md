@@ -24,7 +24,7 @@ TÊN CHỦ ĐỀ: CÂY FENWICK
 
 [SILDE]
 
-[NHẬN XÉT GIẢNG VIÊN]
+[NHẬN XÉT CỦA GIẢNG VIÊN]
 
 
 
