@@ -8,13 +8,40 @@
 <h1 align="center"><b>CS523.M21.KHCL </b></h1>
 <h1 align="center"> CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT NÂNG CAO</h1>
 
+## BẢNG MỤC LỤC
+* [ Giới thiệu môn học](#gioithieumonhoc)
+* [ Giảng viên hướng dẫn](#giangvien)
+* [ Nhóm sinh viên](#thanhvien)
+* [Giới thiệu đề tài](#monhoc)
+* [ Đồ án môn học](#doan)
+
+## GIỚI THIỆU MÔN HỌC
+<a name="gioithieumonhoc"></a>
+* **Tên môn học**: Cấu trúc dữ liệu và giải thuật nâng cao
+* **Mã môn học**: CS523
+* **Lớp học**:CS523.M21.KHCL
+* **Ngày bắt đầu**: 21/2/2022
+* **Năm học**: 2021-2022
+
+<a name ="giangvien"></a>
 ## GIẢNG VIÊN HƯỚNG DẪN
 
 ### Nguyễn Thanh Sơn
 
+<a name ="thanhvien"></a>
+## Nhóm sinh viên : Nhóm 16
+
+| STT    | MSSV          | Họ và Tên              | Github                                               | Email                   |
+| ------ |:-------------:| ----------------------:|-----------------------------------------------------:|-------------------------:
+| 1      | 19521432      | Phạm Đức Duy           |[duy1309](https://github.com/duy1309)                 |19521432@gm.uit.edu.vn   |
+| 2      | 20520821      | Võ Minh Trí            |[trivm12](https://github.com/trivm12)                 |20520821@gm.uit.edu.vn   |
+| 3      | 20521072      | Nguyễn Thị Kim Anh     |[kimanh24022001](https://github.com/kimanh24022001)   |20521072@gm.uit.edu.vn   |
+
+<a name ="monhoc"></a>
 ## GIỚI THIỆU VỀ CHỦ ĐỀ
 TÊN CHỦ ĐỀ: CÂY FENWICK
 
+<a name ="doan"></a>
 ## Đồ Án Môn Học
 [CODE CHAY]
 
@@ -27,11 +54,3 @@ TÊN CHỦ ĐỀ: CÂY FENWICK
 [NHẬN XÉT CỦA GIẢNG VIÊN]
 
 
-
-## Nhóm sinh viên : Nhóm 16
-
-18521144 - Võ Minh Trí
-
-18521353 - Phạm Đức Duy
-
-20521072 - Nguyễn Thị Kim Anh
