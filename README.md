@@ -41,15 +41,19 @@
 ## GIỚI THIỆU VỀ CHỦ ĐỀ
 TÊN CHỦ ĐỀ: CÂY FENWICK
 
+
+ Mọi người có thể sử dụng thông qua việc mở file jar khi cài java ( https://www.eclipse.org/downloads/packages/)
+ 
+ Mọi người có thể tải file qua [link sau](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/fenwick.jar)
 <a name ="doan"></a>
 ## Đồ Án Môn Học
-[CODE CHAY]
+[CODE CHAY](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/fenwicktree.ipynb)
 
 [CODE DEMO](https://github.com/kimanh24022001/CS523.M21.KHCL/tree/main/fenwick%20tree)
 
 [BÁO CÁO](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/FenwickTree.docx)
 
-[SILDE]
+[SILDE](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/FenwickTree.pptx)
 
 [NHẬN XÉT CỦA GIẢNG VIÊN]
 
