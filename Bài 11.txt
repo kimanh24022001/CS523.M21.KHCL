@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int lookup[100][100];
+int LCSLength(string s1, string s2, int l1, int l2) {
+    for (int i = 1; i <= l1; ++i) {
+        for (int j = 1; j <= l2; ++j) {
+            if (s1[i - 1] == s2[j - 1]) lookup[i][j] = lookup[i - 1][j - 1] + 1;
+            else lookup[i][j] = max(lookup[i - 1][j], lookup[i][j - 1]);
+        }
+    }
+    return lookup[l1][l2];
+}
+
+string LCS(string s1, string s2, int l1, int l2) {
+    if (l1 == 0 || l2 == 0) return string("");
+    if (s1[l1 - 1] == s2[l2 - 1]) return LCS(s1, s2, l1 - 1, l2 - 1) + s1[l1 - 1];
+    if (lookup[l1 - 1][l2] > lookup[l1][l2 - 1]) return LCS(s1, s2, l1 - 1, l2);
+    return LCS(s1, s2, l1, l2 - 1);
+}
+
+int main() {
+    string s1, s2;
+    cin >> s1;
+    cin >> s2;
+    int l1 = s1.length();
+    int l2 = s2.length();
+    cout << "\nDo dai lon nhat cua xau con chung la: " << LCSLength(s1, s2, l1, l2);
+    cout << "\nChuoi con chung dai nhat la: " << LCS(s1, s2, l1, l2);
+    return 0;
+}

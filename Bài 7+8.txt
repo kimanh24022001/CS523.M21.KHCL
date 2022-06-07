@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+#define N 10
+int live(int a[][N],int r,int c){
+	for(int i=0;i<c;i++){
+		if (a[r][i]==1){
+			return 0;
+		}
+	}
+	
+	int i=r,j=c;
+	while(i>=0 && j>=0){
+		if (a[i][j]==1){
+			return 0;
+		}
+		i--;
+		j--;
+	}
+	i=r,j=c;
+	while(i<N && j>=0){
+		if (a[i][j]==1){
+			return 0;
+		}
+		i++;
+		j--;
+	}
+	return 1;
+}
+int posQueen(int a[][N],int c){
+	if (c>=N){
+		return 1;
+	}
+	for (int i=0;i<N;i++){
+		if (live(a,i,c)==1){
+			a[i][c]=1;
+			if (posQueen(a,c+1)){
+				return 1;
+			}
+			a[i][c]=0;  //quay lai
+		}
+	}
+	return 0;
+}
+int main() {
+	int a[N][N];
+	for (int i=0;i<N;i++){
+		for(int j=0;j<N;j++){
+			a[i][j]=0;
+		}
+	}
+	if (posQueen(a,0)==1){
+		for (int i=0;i<N;i++){
+	    	for(int j=0;j<N;j++){
+		         cout<<a[i][j];
+		}
+		cout<<endl;
+	}
+	}
+
+	return 0;
+}
