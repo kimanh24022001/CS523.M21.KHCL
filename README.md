@@ -51,8 +51,6 @@ TÊN CHỦ ĐỀ: CÂY FENWICK
 
 [CODE DEMO](https://github.com/kimanh24022001/CS523.M21.KHCL/tree/main/fenwick%20tree)
 
-[BÁO CÁO](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/FenwickTree.docx)
-
 [SILDE](https://github.com/kimanh24022001/CS523.M21.KHCL/blob/main/FenwickTree.pptx)
 
 [NHẬN XÉT CỦA GIẢNG VIÊN]
